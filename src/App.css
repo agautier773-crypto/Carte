@@ -40,3 +40,52 @@
 .read-the-docs {
   color: #888;
 }
+.form-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.form-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form-input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.btn:hover { opacity: 0.85; }
+
+.btn-blue   { background-color: #4285F4; }
+.btn-green  { background-color: #34A853; }
+.btn-yellow { background-color: #FBBC05; color: #333; }
+.btn-red    { background-color: #EA4335; }
+.btn-blue   { background-color: #4285F4 !important; color: white !important; border: none !important; }
+.btn-green  { background-color: #34A853 !important; color: white !important; border: none !important; }
+.btn-yellow { background-color: #FBBC05 !important; color: #333 !important;  border: none !important; }
+.btn-red    { background-color: #EA4335 !important; color: white !important; border: none !important; }
