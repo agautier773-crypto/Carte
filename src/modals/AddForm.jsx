@@ -4,7 +4,7 @@ import localStorageService from "../services/localStorageService.js";
 import buttonAdd from "../compenent/buttonAdd.jsx";
 import ButtonAdd from "../compenent/buttonAdd.jsx";
 
-function AddForm(){
+function AddForm({setMarkers}){
 
     return (
         <>
@@ -16,7 +16,7 @@ function AddForm(){
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div className="modal-body">
-                            <ButtonAdd/>
+                            <ButtonAdd setMarkers = {setMarkers}/>
                         </div>
                         <div className="modal-footer">
                             <button

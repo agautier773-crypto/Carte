@@ -2,7 +2,7 @@ import {useState} from "react";
 import localStorageService from "../services/localStorageService.js";
 import "../App.css"
 
-function ButtonAdd() {
+function ButtonAdd({setMarkers}) {
     const storage = localStorageService()
     const [titre, setTitre] = useState("");
     const [position, setPosition] = useState("");
